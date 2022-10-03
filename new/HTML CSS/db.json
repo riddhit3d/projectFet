@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "userEmail": "",
+      "userPassword": "",
+      "id": 2
+    },
+    {
+      "userEmail": "rrrr3r3rrr",
+      "userPassword": "",
+      "id": 3
+    },
+    {
+      "userEmail": "riddhi@cybage.com",
+      "userPassword": "1234",
+      "id": 4
+    },
+    {
+      "userEmail": "richa@cybage.com",
+      "userPassword": "12345",
+      "id": 5
+    }
+  ]
+}

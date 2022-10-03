@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART PAGE</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
+    <link rel="stylesheet" href="cssstyle.css">
+
+</head>
+
+<body>
+    <main>
+    <div class="container">
+        <div class="screen-togo">
+            <!-- food Menu Items -->
+            <li class="menu-items">
+                <img src="dosa.png" alt="South Indian Special" class="menu-item">
+                <div class="menu=item-dets">
+                    <p class="menu-item-heading">South Indian Special</p>
+                    <p class="g-price">&#8377 200</p>
+                </div>
+                <button class="add-button" data-title="South Indian Special" data-price="200">Add to Cart</button>
+            </li>
+
+            <li class="menu-items">
+                <img src="ice cream.jpg" alt="Ice Cream" class="menu-item">
+                <div class="menu=item-dets">
+                    <p class="menu-item-heading">Ice Cream</p>
+                    <p class="g-price">&#8377 80</p>
+                </div>
+                <button class="add-button" data-title="Ice Cream" data-price="80">Add to Cart</button>
+            </li>
+
+            <li class="menu-items">
+                <img src="noodles.jpg" alt="Noodles" class="menu-item">
+                <div class="menu=item-dets">
+                    <p class="menu-item-heading">Noodles</p>
+                    <p class="g-price">&#8377 100</p>
+                </div>
+                <button class="add-button" data-title="Noodles" data-price="100">Add to Cart</button>
+            </li>
+
+            <li class="menu-items">
+                <img src="salad.png" alt="Fresh Salad" class="menu-item">
+                <div class="menu=item-dets">
+                    <p class="menu-item-heading">Fresh Salad</p>
+                    <p class="g-price">&#8377 120</p>
+                </div>
+                <button class="add-button" data-title="Fresh Salad" data-price="120">Add to Cart</button>
+            </li>
+
+            <li class="menu-items">
+                <img src="pizza.jpg" alt="Pizza" class="menu-item">
+                <div class="menu=item-dets">
+                    <p class="menu-item-heading">Pizza</p>
+                    <p class="g-price">&#8377 300</p>
+                </div>
+                <button class="add-button" data-title="Pizza" data-price="300">Add to Cart</button>
+            </li>
+        </div>
+        
+        
+        <div class="screen-cart">
+            <h2>Your Cart</h2>
+            <!-- Cart Items -->
+            <ul class="cart-items"></ul>
+
+
+            <div class="cart-match">
+                <p>Add items to Cart</p>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <script src="jscript.js"></script>
+
+
+    
+</body>
+</html>

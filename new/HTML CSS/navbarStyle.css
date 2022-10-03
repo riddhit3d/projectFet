@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+
+.forumName2{
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    text-shadow: 1px 1px #ff0000;
+}
+.forumName1{
+    text-decoration: none;
+    font-family:"Audiowide", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-shadow: 1px 1px #ff0000;
+}
+
+.nav-link , #home{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.navbar{
+    background: linear-gradient(to bottom, #66ccff 0%, #ffffff 100%);
+}
+.forumName1:hover , .forumName2:hover{
+    color: red;
+}
+.nav-link:hover , #home:hover{
+   color: blueviolet;
+}
+
+
+
+  

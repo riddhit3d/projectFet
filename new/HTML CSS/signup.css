@@ -1,0 +1,9 @@
+
+#input-email{
+    padding-top: 10px;
+}
+body{
+    background-image: url("../new/signupimg.png");
+    /* background: linear-gradient(to bottom, #66ffff 0%, #ffff99 100%); */
+    background-size: cover;
+}
